@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main>
+      <div class="videos">
+        <div class="video">
+          <video id="localVideo" autoplay playsinline></video>
+          <h2>local</h2>
+        </div>
+        <div class="video">
+          <video id="remoteVideo" autoplay playsinline></video>
+          <h2>remote</h2>
+        </div>
+      </div>
+      <button id="start">start</button>
+      <button id="call">call</button>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
